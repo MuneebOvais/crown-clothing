@@ -47,7 +47,7 @@ class Directory extends React.Component {
     render(){
         return (
             <div className='directory-menu'>
-                {
+                {                                 //spread operator is used here
                     this.state.sections.map(({id, ...otherSectionProps}) => //using destructuring for section object which is parameter of map
                         <MenuItem key={id} {...otherSectionProps} />
                     )
