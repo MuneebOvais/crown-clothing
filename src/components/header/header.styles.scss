@@ -1,0 +1,25 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; //to space apart children of header-logo and options
+  margin-bottom: 25px;
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+  }
+
+  .options {
+    width: 50%; // options take up 50% of width of parent header
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; // options are pushed at the end, i.e right side of flexbox
+
+    .option {
+      padding: 10px 15px;
+    }
+  }
+}
