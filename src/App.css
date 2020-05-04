@@ -1,3 +1,4 @@
+/*whenever we want to apply a style to the whole App, we write in App.css*/
 body {
     font-family: 'Open Sans Condensed', sans-serif; 
     padding: 20px 60px;
@@ -5,4 +6,7 @@ body {
 a {
     text-decoration: none; /*no underline or purple color for any links in app*/
     color: black;
+}
+* { /*universal selection - apply the following styles to each and every tag*/
+    box-sizing: border-box; /*border margin and padding won't effect element size*/
 }
